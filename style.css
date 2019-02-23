@@ -886,7 +886,7 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .colon1, .colon2, .colon3, .colon4{
-	background: #333333;
+	background: #52565E;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-ms-transition: all .3s ease-in-out;
@@ -988,7 +988,7 @@ body.app_version .header_style_01.fixed-menu{
 	display: block;
 	margin: 5px 7px;
     border-radius: 50%;
-    border: 4px solid #333333;
+    border: 4px solid #52565E;
     background: url("uploads/img-2.jpg") no-repeat;
     background-size: cover;
     transition: all 0.3s ease-in-out 0s;
@@ -1024,7 +1024,7 @@ body.app_version .header_style_01.fixed-menu{
     content: "";
     width: 1px;
     height: 80%;
-    background: #333333;
+    background: #52565E;
     position: absolute;
     top: 30px;
     left: 24px;
@@ -1041,7 +1041,7 @@ body.app_version .header_style_01.fixed-menu{
     content: "";
     width: 2px;
     height: 100%;
-    background: #333333;
+    background: #52565E;
     position: absolute;
     top: 0;
     left: -2px;
@@ -1057,7 +1057,7 @@ body.app_version .header_style_01.fixed-menu{
     height: 15px;
     border-radius: 50px;
     background: #037Ef3;
-    border: 1px solid #333333;
+    border: 1px solid #52565E;
     position: absolute;
     top: 50%;
     left: -48px;
@@ -1087,9 +1087,9 @@ body.app_version .header_style_01.fixed-menu{
     border-radius: 50%;
     font-size: 15px;
     font-weight: normal;
-    color: #333333;
+    color: #52565E;
     text-align: center;
-    border: 1px solid #333333;
+    border: 1px solid #52565E;
     position: absolute;
     top: 50%;
     right: 25px;
@@ -1101,7 +1101,7 @@ body.app_version .header_style_01.fixed-menu{
     padding: 10px 30px 10px;
     border: none;
     font-size: 14px;
-    color: #333333;
+    color: #52565E;
     line-height: 28px;
 }
 
@@ -1177,13 +1177,13 @@ body.app_version .header_style_01.fixed-menu{
 }
 .pricingTable .pricing-content li{
     font-size: 17px;
-    color: #333333;
+    color: #52565E;
     line-height: 40px;
 }
 .pricingTable .pricingTable-signup{
     display: inline-block;
     padding: 7px 30px;
-    background: #333333;
+    background: #52565E;
     font-size: 16px;
 	font-weight: 600;
     color: #ffffff;
@@ -1478,7 +1478,7 @@ hr.invis1 {
 .owl-screenshots .swiper-button-next, .owl-screenshots .swiper-button-prev{
 	background-image: none;
 	font-size: 54px;
-	color: #333333;
+	color: #52565E;
 }
 
 .owl-screenshots .swiper-button-next:hover, .owl-screenshots .swiper-button-prev:hover{
@@ -1487,7 +1487,7 @@ hr.invis1 {
 
 .swiper-pagination-bullet{
 	opacity: 1;
-	background: #333333;
+	background: #52565E;
 }
 .swiper-pagination-bullet-active{
 	background: #037Ef3;
@@ -1597,7 +1597,7 @@ hr.invis1 {
     color: #fff;
 }
 .our-team:hover .social li a:hover{
-    color: #333333;
+    color: #52565E;
 }
 .our-team .team-content{
     padding: 20px 15px;
@@ -1606,7 +1606,7 @@ hr.invis1 {
 .our-team .title{
     font-size: 18px;
     font-weight: bold;
-    color: #333333;
+    color: #52565E;
     text-transform: capitalize;
     margin: 0 0 20px;
     position: relative;
@@ -1649,7 +1649,7 @@ hr.invis1 {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #333333;
+    background: #52565E;
     margin: 0 auto;
     position: relative;
     top: -13px;
@@ -1845,7 +1845,7 @@ body.app_version .customwidget li i{
 
 .btn-buy{
 	display: inline-block;
-	background: #333333;
+	background: #52565E;
 	transition: .3s linear;
 	transition-property: background;
 }
@@ -1879,7 +1879,7 @@ body.app_version .customwidget li i{
 -------------------------------------------------------------------*/
 
 #contact{
-	background: #333333;
+	background: #52565E;
 }
 
 #contact .section-title h3{
@@ -2002,7 +2002,7 @@ select.mobile-device {
 }
 
 #contact {
-    background: url(images/bg.png) no-repeat center center #333333;
+    background: url(images/bg.png) no-repeat center center #52565E;
 }
 
 .pdi{
@@ -2046,7 +2046,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 	padding: 10px 18px;
 	background: #ffffff;
 	font-size: 18px;
-	color: #333333;
+	color: #52565E;
 	cursor: pointer;
 }
 .get-btn:hover{
@@ -2133,7 +2133,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 	top: 0;
 }
 .subscribe-form .subscribe-btn:hover{
-	background: #333333;
+	background: #52565E;
 }
 
 .copyrights {

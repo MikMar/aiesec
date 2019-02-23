@@ -297,7 +297,7 @@ Hero Slider - by CodyHouse.co
   display: inline-block;
   padding: 10px 18px;
   margin-top: 20px;
-  background-color: #333333;
+  background-color: #52565E;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -311,7 +311,7 @@ Hero Slider - by CodyHouse.co
 }
 
 .cd-hero__btn.cd-hero__btn--secondary {
-  background-color: #333333;
+  background-color: #52565E;
 }
 
 .cd-hero__btn:nth-of-type(2) {
@@ -491,7 +491,7 @@ Hero Slider - by CodyHouse.co
   left: 0;
   width: 45px;
   height: 100%;
-  color: #333333;
+  color: #52565E;
   background-color: #ffffff;
   -webkit-box-shadow: inset 0 2px 0 currentColor;
           box-shadow: inset 0 2px 0 currentColor;
