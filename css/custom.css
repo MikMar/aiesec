@@ -1,2 +1,12 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
+
+.flip-clock-label
+{
+    display: none !important;
+}
+
+.flip-clock {
+    display: inline-block;
+    width: auto!important;
+}

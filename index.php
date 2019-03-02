@@ -21,16 +21,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 
+	<link rel="stylesheet" href="css/flipclock.css">
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script>
+        var countDownTime = <?php echo strtotime('2019-04-30 00:00:00') - strtotime(date('Y-m-d h:i:s')); ?>;
+    </script>
 
 </head>
 <body class="app_version" data-spy="scroll" data-target="#navbarApp" data-offset="98">
@@ -156,6 +162,7 @@
 				<div class="col-lg-12">
 					<div class="section-title text-center">
 						<h3>About Us</h3>
+						<div class="flip-clock"></div>
 						<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum<br>auctor nisi elit consequat ipsum, nec sagittis sem!</p>
 					</div><!-- end title -->
 				</div>
@@ -775,7 +782,8 @@
     <script src="js/all.js"></script>
     <!-- ALL PLUGINS -->
 	<script src="js/main.js"></script>
-    <script src="js/custom.js"></script>
+	<script src="js/flipclock.min.js"></script>
+	<script src="js/custom.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script>
 		var swiper = new Swiper('.swiper-container', {

@@ -199,4 +199,9 @@
         });
     });
 
+    $('.flip-clock').FlipClock(countDownTime, {
+        countdown : true,
+        clockFace: 'DailyCounter',
+    });
+
 })(jQuery);
