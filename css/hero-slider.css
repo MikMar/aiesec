@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Hero Slider - by CodyHouse.co
 
@@ -180,27 +180,27 @@ Hero Slider - by CodyHouse.co
 
 .cd-hero__slide:first-of-type {
   background-color: #037Ef3;
-  background-image: url(../uploads/slider-01.jpg);
+  background-image: url(../uploads/slider-01.png);
 }
 
 .cd-hero__slide:nth-of-type(2) {
   background-color: #037Ef3;
-  background-image: url(../uploads/slider-02.jpg);
+  background-image: url(../uploads/slider-02.png);
 }
 
 .cd-hero__slide:nth-of-type(3) {
   background-color: #037Ef3;
-  background-image: url(../uploads/slider-03.jpg);
+  background-image: url(../uploads/slider-03.png);
 }
 
 .cd-hero__slide:nth-of-type(4) {
   background-color: #037Ef3;
-  background-image: url(../uploads/slider-04.jpg);
+  background-image: url(../uploads/slider-04.png);
 }
 
 .cd-hero__slide:nth-of-type(5) {
   background-color: #037Ef3;
-  background-image: url(../uploads/slider-05.jpg);
+  background-image: url(../uploads/slider-05.png);
 }
 
 .cd-hero__content.cd-hero__content--full-width,
@@ -392,7 +392,7 @@ Hero Slider - by CodyHouse.co
             transform: translateX(0);
   }
   .cd-hero__slide--is-moving .cd-hero__content.cd-hero__content--half-width {
-    /* this is the slide moving outside the viewport 
+    /* this is the slide moving outside the viewport
     wait for the end of the transition on the <li> parent before set opacity to 0 and translate to 40px/-40px */
     -webkit-transition: opacity 0s 0.5s, -webkit-transform 0s 0.5s;
     transition: opacity 0s 0.5s, -webkit-transform 0s 0.5s;
@@ -440,7 +440,7 @@ Hero Slider - by CodyHouse.co
   .cd-hero__slide--is-moving .cd-hero__content--full-width h2,
   .cd-hero__slide--is-moving .cd-hero__content--full-width p,
   .cd-hero__slide--is-moving .cd-hero__content--full-width .cd-hero__btn {
-    /* this is the slide moving outside the viewport 
+    /* this is the slide moving outside the viewport
     wait for the end of the transition on the li parent before set translate to 100px/-100px */
     -webkit-transition: -webkit-transform 0s 0.5s;
     transition: -webkit-transform 0s 0.5s;
@@ -551,7 +551,7 @@ Hero Slider - by CodyHouse.co
   padding-top: 0px;
   font-size: 14px;
   font-weight: 500;
-  color: #ffffff;
+  color: #caccd1;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
@@ -613,6 +613,7 @@ Hero Slider - by CodyHouse.co
     font-size: 1.1rem;
     text-transform: uppercase;
 	line-height: 34px;
+    color: #caccd1;
   }
   .cd-hero__nav a::before {
     top: 18px;

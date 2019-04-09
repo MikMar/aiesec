@@ -33,7 +33,7 @@ body.demos .section {
 }
 
 body.demos .section-title img {
-    max-width: 280px;
+    max-width: 280px;8
     display: block;
     margin: 10px auto;
 }
@@ -661,7 +661,7 @@ body.app_version .header_style_01.fixed-menu{
 	color: #ffffff;
 }
 
-.js-cd-slide::before{
+/*.js-cd-slide::before{
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -671,7 +671,7 @@ body.app_version .header_style_01.fixed-menu{
 	right: 0px;
 	top: 0px;
 	z-index: 0;
-}
+}*/
 
 
 .about-right h2{
@@ -679,7 +679,7 @@ body.app_version .header_style_01.fixed-menu{
 	font-weight: 600;
 }
 .about-right p{
-	font-size: 16px; 
+	font-size: 16px;
 	font-weight: 300;
 }
 
@@ -1110,7 +1110,7 @@ body.app_version .header_style_01.fixed-menu{
 -------------------------------------------------------------------*/
 
 .pricingTable{
-    padding: 25px 0;    
+    padding: 25px 0;
     text-align: center;
 }
 .pricingTable.active{
@@ -1830,7 +1830,7 @@ body.app_version .customwidget li i{
 	position: relative;
 	display: block;
 	width: 100%;
-	z-index: 1;	
+	z-index: 1;
 }
 
 .download-icons .box-icon{
@@ -1962,7 +1962,7 @@ select.mobile-device {
     color: #bcbcbc !important;
 }
 
-.contact_form {    
+.contact_form {
     padding: 40px 15px;
 }
 
