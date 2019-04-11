@@ -136,10 +136,7 @@
                         last_name: $('#last_name').val(),
                         email: $('#email').val(),
                         phone: $('#phone').val(),
-                        select_service: $('#select_service').val(),
-                        select_price: $('#select_price').val(),
-                        comments: $('#comments').val(),
-                        verify: $('#verify').val()
+                        current_occupation: $('#current-occupation').val()
                     },
                     function(data) {
                         document.getElementById('message').innerHTML = data;

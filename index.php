@@ -9,14 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
      <!-- Site Metas -->
-    <title>ProApp - Responsive Landing Page HTML5 Template</title>  
+    <title>AIESEC | Live the experience</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="https://aiesec.org/assets/images/favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://aiesec.org/assets/images/favicon.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -41,6 +41,9 @@
 </head>
 <body class="app_version" data-spy="scroll" data-target="#navbarApp" data-offset="98">
 
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v3.2&appId=321550328546010&autoLogAppEvents=1"></script>
+
     <!-- LOADER -->
     <div id="preloader">
         <img class="preloader" src="images/loaders/loader-app.gif" alt="">
@@ -59,11 +62,12 @@
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="#home">Home</a></li>
                         <li><a class="nav-link" href="#about">Events</a></li>
-                        <li><a class="nav-link" href="#team">Project Team</a></li>
+                        <li><a class="nav-link" href="#agenda">Agenda</a></li>
+                        <!--<li><a class="nav-link" href="#team">Project Team</a></li>-->
                         <li><a class="nav-link" href="#statistics">Statistics</a></li>
-                        <li><a class="nav-link" href="#clients">Partners</a></li>
+                        <!--<li><a class="nav-link" href="#clients">Partners</a></li>-->
                         <li><a class="nav-link" href="#faqs">FAQs</a></li>
-						<!--<li><a class="nav-link" href="#contact">Register</a></li>-->
+						<li><a class="nav-link" href="#contact">Registration</a></li>
                     </ul>
                 </div>
             </div>
@@ -194,9 +198,36 @@
 					</div>
 				</div>
 			</div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-6">
+                    <div class="about-left">
+                        <img src="images/logo.png" class="img-fluid ci" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="about-right">
+                        <h2>Gala Event</h2>
+                        <p>
+                            Traditional Gala event, the way we gather together to celebrate the anniversary of AIESEC in Armenia. The Gala Event is initially planned for the end of August. It will be two days event. Stay tuned to be updated about the exact dates and venue of the 30th Anniversary greatest event.
+                        </p>
+                    </div>
+                </div>
+            </div>
 			
 		</div>
 	</div>
+
+    <div id="agenda" class="section agenda">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Agenda</h3>
+            </div>
+            <div class="footer-distributed text-center">
+                <img src="images/Agenda.jpg">
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
 
     <!--<div class="how-its-work clearfix">
         <div class="hc colon1">
@@ -224,74 +255,6 @@
         </div>
     </div>-->
 
-    <div id="team" class="section wb">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Meet The Project Team</h3>
-                <p class="lead">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, true generator<br> on the Internet. It uses a dictionary of over..</p>
-            </div><!-- end title -->
-
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="team_img">
-                            <img src="uploads/team_01.jpg">
-                            <ul class="social">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">Williamson</h3>
-                            <span class="post">Founder & CEO</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typeseing industry</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="team_img">
-                            <img src="uploads/team_02.jpg">
-                            <ul class="social">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">kristina</h3>
-                            <span class="post">UI Designer</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typeseing industry</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="team_img">
-                            <img src="uploads/team_03.jpg">
-                            <ul class="social">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">Steve Thomas</h3>
-                            <span class="post">Chief Developer</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typeseing industry</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- end container -->
-    </div><!-- end section -->
-
     <div id="statistics" class="parallax section stats-box" style="background-image:url('uploads/slider-01.png');background-position: center">
         <div class="container">
             <div class="row text-left stat-wrap">
@@ -299,7 +262,7 @@
 					<div class="text-center">
 						<span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-membership"></i></span>
 						<p class="stat_count_download">50</p>
-						<h3>Current AIESEC in Armenia active members</h3>
+						<h3>AIESEC In Armenia Active Members</h3>
 					</div>
                 </div><!-- end col -->
 
@@ -307,7 +270,7 @@
 					<div class="text-center">
 						<span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-member"></i></span>
 						<p class="stat_count_download">2000</p>
-						<h3>AIESEC in Armenia alumni</h3>
+						<h3>AIESEC In Armenia Alumni</h3>
 					</div>
                 </div><!-- end col -->
 
@@ -315,7 +278,7 @@
 					<div class="text-center">
 						<span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-couple-of-arrows-changing-places"></i></span>
 						<p class="stat_count_download">50</p>
-						<h3>AIESEC in Armenia exchange numbers in a year</h3>
+						<h3>AIESEC In Armenia Exchange Numbers In One Year</h3>
 					</div>
                 </div><!-- end col -->
 
@@ -323,7 +286,7 @@
 					<div class="text-center">
 						<span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-school"></i></span>
 						<p class="stat_count_download">1700</p>
-						<h3>Partner Universities  </h3>
+						<h3>Partner Universities</h3>
 					</div>
                 </div><!-- end col -->
             </div><!-- end row -->
@@ -333,9 +296,8 @@
     <div id="clients" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Happy Clients</h3>
-                <p class="lead">We thanks for all our awesome testimonials! There are hundreds of our happy customers! <br>Let's see what others say about Appfast website template!</p>
-            </div><!-- end title -->
+                <h3>Partners</h3>
+            </div>
 
             <div class="row">
                 <div class="col-md-12 col-sm-12">
@@ -343,39 +305,37 @@
 						<div class="testi-carousel owl-carousel owl-theme">
 							<div class="testimonial">
 								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
+                                    Gold Partner
 								</p>
-								<h3 class="title">williamson</h3>
-								<span class="post">Web Developer</span>
+								<h3 class="title">Ucom</h3>
 							</div>
-		 
+
+                            <div class="testimonial">
+                                <p class="description">
+                                    Silver Partner
+                                </p>
+                                <h3 class="title">Aurora Barealisse</h3>
+                                <span class="post">marketing and branding</span>
+                            </div>
+
 							<div class="testimonial">
 								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
+                                    In Kind Partner
 								</p>
-								<h3 class="title">Kristina</h3>
-								<span class="post">Web Designer</span>
-							</div>
-		 
-							<div class="testimonial">
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
-								</p>
-								<h3 class="title">Miranda Joy</h3>
-								<span class="post">Web Developer</span>
+								<h3 class="title">Pepsi</h3>
 							</div>
 						</div>
 					</div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+                </div>
+            </div>
+        </div>
+    </div>
 	
 	
 	<div id="faqs" class="section lb">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-lg-6 col-md-6">
+				<div class="col-lg-12">
 					<div class="accordion" id="accordionExample">
 					  <div class="card">
 						<div class="card-header" id="headingOne">
@@ -471,19 +431,19 @@
 				</div>
 				<!--<div class="col-lg-6 col-md-6">
 					<div class="faq-right">
-						<img src="uploads/about-02.png" class="img-fluid" alt="" />
+						<img src="uploads/kickoff.png" class="img-fluid" alt="" />
 					</div>
 				</div>-->
 			</div>
 		</div>
 	</div>
 
-    <!--<div id="contact" class="section lb">
+    <div id="contact" class="section lb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Register</h3>
+                <h3>Register For The Upcoming Event</h3>
 			    <div class="info-box" data-toggle="tooltip" data-placement="bottom" title="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.">
-					<i class="fa fa-question-circle" aria-hidden="true"></i>
+					<!--<i class="fa fa-question-circle" aria-hidden="true"></i>-->
 				</div>
             </div>
 
@@ -505,11 +465,14 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
                                 </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Current occupation"></textarea>
+                                <div class="col-lg-12">
+                                    <input type="text" name="current_occupation" id="current-occupation" class="form-control" placeholder="Current occupation">
                                 </div>
+                                <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Current occupation"></textarea>
+                                </div>-->
                                 <div class="text-center pdi">
-                                    <button type="submit" value="SEND" id="submit" class="hvr-bounce-to-right get-btn">Get a Quote</button>
+                                    <button type="submit" value="SEND" id="submit" class="hvr-bounce-to-right get-btn">Register</button>
                                 </div>
                             </div>
                         </form>
@@ -517,7 +480,7 @@
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
 
     <!--<footer class="footer">
 		<div class="container"> 
@@ -538,6 +501,19 @@
 			</div>
 		</div>
     </footer>-->
+
+    <div class="copyrights fb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Follow Us On Facebook</h3>
+            </div>
+            <div class="footer-distributed text-center">
+                <div class="footer-left">
+                    <p class="footer-company-name"><div class="fb-page" data-href="https://www.facebook.com/AIESECinArmenia30/" data-width="500" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AIESECinArmenia30/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AIESECinArmenia30/">AIESEC in Armenia 30</a></blockquote></div></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
 
     <div class="copyrights">
         <div class="container">
