@@ -1,3 +1,11 @@
+<?php
+
+$date = strtotime('2019-06-15 00:00:00') - strtotime(date('Y-m-d h:i:s'));
+if ($date < 0) {
+    $date = 0;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +29,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
@@ -35,7 +43,7 @@
     <![endif]-->
 
     <script>
-        var countDownTime = <?php echo strtotime('2019-04-13 16:00:00') - strtotime(date('Y-m-d h:i:s')); ?>;
+        var countDownTime = <?php echo $date; ?>;
     </script>
 
 </head>
@@ -65,7 +73,7 @@
                         <li><a class="nav-link" href="#agenda">Agenda</a></li>
                         <!--<li><a class="nav-link" href="#team">Project Team</a></li>-->
                         <li><a class="nav-link" href="#statistics">Statistics</a></li>
-                        <!--<li><a class="nav-link" href="#clients">Partners</a></li>-->
+                        <li><a class="nav-link" href="#clients">Partners</a></li>
                         <li><a class="nav-link" href="#faqs">FAQs</a></li>
 						<li><a class="nav-link" href="#contact">Registration</a></li>
                     </ul>
@@ -166,7 +174,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="section-title text-center">
-						<h3>Kickoff Event</h3>
+						<h3>ALDS (Alumni Leadership Development Seminar)</h3>
 						<div class="flip-clock"></div>
 					</div><!-- end title -->
 				</div>
